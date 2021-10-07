@@ -6,7 +6,7 @@ The "Program" class activates the "Test" class, that has 3 parts in it: Admin me
 Company methods and Customer methods. You should decide what part you want to see,
 and shut the other two. The default is Admin methods.
 
-If the program does not run, try to do the follows:
+If, for some reason, the program does not run, try to do the follows:
 
 1. go to: file -> program structure -> project  
    in Project SDK choose: 11 Amazon Correctto version 11.0.11
