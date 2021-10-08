@@ -1,5 +1,4 @@
 # CouponSystem-BasicJava
-A coupon system written with basic java (POJO).
 
 Run the program from the "Program" class in the "Tester" package.
 The "Program" class activates the "Test" class, that has 3 parts in it: Admin methods,
