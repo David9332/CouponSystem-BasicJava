@@ -14,6 +14,12 @@ public class LoginManager {
     private static LoginManager instance;
 
     /**
+     * A private constructor, as needed for a singleton class.
+     */
+    private LoginManager(){
+    }
+
+    /**
      * Checks if instance is null. If it is, synchronizes the entire "LoginManager"
      * class, than checks again if its null, creates new instance and return it.
      *
