@@ -64,14 +64,14 @@ public class DatabaseManager {
     }
 
     /**
-     * Deletes the data base "couponsdb" from MariaDB.
+     * Deletes the database "couponsdb" from MariaDB.
      */
     public static void dropDataBase() {
         DBUtils.runQuery(DROP_DB);
     }
 
     /**
-     * Creates the table "categories" in the "couponsdb" data base.
+     * Creates the table "categories" in the "couponsdb" database.
      */
     public static void createTableCategories() {
         DBUtils.runQuery(CREATE_TABLE_CATEGORIES);
@@ -94,28 +94,28 @@ public class DatabaseManager {
     }
 
     /**
-     * Creates the table "companies" in the "couponsdb" data base.
+     * Creates the table "companies" in the "couponsdb" database.
      */
     public static void createTableCompanies() {
         DBUtils.runQuery(CREATE_TABLE_COMPANIES);
     }
 
     /**
-     * Creates the table "coupons" in the "couponsdb" data base.
+     * Creates the table "coupons" in the "couponsdb" database.
      */
     public static void createTableCoupons() {
         DBUtils.runQuery(CREATE_TABLE_COUPONS);
     }
 
     /**
-     * Creates the table "customers" in the "couponsdb" data base.
+     * Creates the table "customers" in the "couponsdb" database.
      */
     public static void createTableCustomers() {
         DBUtils.runQuery(CREATE_TABLE_CUSTOMERS);
     }
 
     /**
-     * Creates the table "customers_vs_coupons" in the "couponsdb" data base.
+     * Creates the table "customers_vs_coupons" in the "couponsdb" database.
      */
     public static void createTableCustomersVsCoupons() {
         DBUtils.runQuery(CREATE_TABLE_CUSTOMERS_VS_COUPONS);
@@ -124,7 +124,7 @@ public class DatabaseManager {
 
     /**
      * Deletes the foreign key of the table "categories", and then deletes the table
-     * itself from the "couponsdb" data base.
+     * itself from the "couponsdb" database.
      */
     public static void dropTableCategories() {
         DBUtils.runQuery(DROP_TABLE_CATEGORIES_FOREIGN_KEY);
@@ -133,7 +133,7 @@ public class DatabaseManager {
 
     /**
      * Deletes the foreign key of the table "companies", and then deletes the table
-     * itself from the "couponsdb" data base.
+     * itself from the "couponsdb" database.
      */
     public static void dropTableCompanies() {
         DBUtils.runQuery(DROP_TABLE_COMPANIES_FOREIGN_KEY);
@@ -142,7 +142,7 @@ public class DatabaseManager {
 
     /**
      * Deletes the foreign key of the table "coupons", and then deletes the table
-     * itself from the "couponsdb" data base.
+     * itself from the "couponsdb" database.
      */
     public static void dropTableCoupons() {
         DBUtils.runQuery(DROP_TABLE_COUPONS_FOREIGN_KEYS);
@@ -151,7 +151,7 @@ public class DatabaseManager {
 
     /**
      * Deletes the foreign key of the table "customers", and then deletes the table
-     * itself from the "couponsdb" data base.
+     * itself from the "couponsdb" database.
      */
     public static void dropTableCustomers() {
         DBUtils.runQuery(DROP_TABLE_CUSTOMERS_FOREIGN_KEY);
@@ -159,14 +159,14 @@ public class DatabaseManager {
     }
 
     /**
-     * Deletes the table "customers_vs_coupons" from the "couponsdb" data base.
+     * Deletes the table "customers_vs_coupons" from the "couponsdb" database.
      */
     public static void dropTableCustomersVsCoupons() {
         DBUtils.runQuery(DROP_TABLE_CUSTOMERS_VS_COUPONS);
     }
 
     /**
-     * Creates the "couponsdb" data base with all of its 5 tables.
+     * Creates the "couponsdb" database with all of its 5 tables.
      */
     public static void createDBWithTables() {
         DBUtils.runQuery(CREATE_DB);
